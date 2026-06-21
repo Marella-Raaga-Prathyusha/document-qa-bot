@@ -1,4 +1,3 @@
-# document-qa-bot
 # Document Q&A Bot using RAG (Retrieval-Augmented Generation)
 
 ## Author
