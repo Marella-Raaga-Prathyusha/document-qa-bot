@@ -1,6 +1,12 @@
 # document-qa-bot
 # Document Q&A Bot using RAG (Retrieval-Augmented Generation)
 
+## Author
+Marrella Raaga Prathyusha
+B.Tech(CSE) – Big Data Analytics
+AI Engineering Internship Assignment
+
+
 ## Overview
 
 This project is a Retrieval-Augmented Generation (RAG) based Document Question Answering Bot built using Python. The system allows users to ask natural language questions about a collection of documents and receive grounded answers with source citations.
@@ -62,7 +68,6 @@ document-qa-bot/
 ├── .env
 ├── requirements.txt
 ├── README.md
-└── .gitignore
 ```
 
 ---
@@ -122,11 +127,6 @@ CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 ```
 
-### Why?
-
-Large documents cannot be embedded efficiently as a single block. Splitting documents into smaller chunks improves retrieval quality and reduces noise.
-
-A chunk overlap of 200 characters ensures that important information located near chunk boundaries is not lost.
 
 ---
 
@@ -138,14 +138,6 @@ A chunk overlap of 200 characters ensures that important information located nea
 all-MiniLM-L6-v2
 ```
 
-### Why?
-
-* Fast embedding generation
-* Lightweight model
-* Good semantic search performance
-* No API cost
-* Supports batch embedding generation
-
 ---
 
 ## Vector Database
@@ -155,14 +147,6 @@ all-MiniLM-L6-v2
 ```text
 ChromaDB
 ```
-
-### Why?
-
-* Local persistent storage
-* Lightweight setup
-* Easy integration with Python
-* Fast similarity search
-* No external server required
 
 ---
 
@@ -278,53 +262,6 @@ Expected Theme:
 * Human-like intelligence
 * Applications of AI
 
-### Query 2
-
-```text
-What is Machine Learning?
-```
-
-Expected Theme:
-
-* Learning from data
-* Predictive models
-* Subfield of AI
-
-### Query 3
-
-```text
-Summarize the business report.
-```
-
-Expected Theme:
-
-* Revenue
-* Growth
-* Business insights
-
-### Query 4
-
-```text
-What is cloud computing?
-```
-
-Expected Theme:
-
-* Cloud services
-* Infrastructure
-* Benefits
-
-### Query 5
-
-```text
-What are the effects of climate change?
-```
-
-Expected Theme:
-
-* Global warming
-* Environmental impact
-* Sustainability
 
 ---
 
@@ -379,10 +316,3 @@ Who won the FIFA World Cup 2022?
 
 ---
 
-## Author
-
-Raaga Prathyusha
-
-B.Tech – Big Data Analytics
-
-AI Engineering Internship Assignment
